@@ -1,0 +1,29 @@
+/*body will be the grayish sidebars. Sounds counterintuitive but how would I make the two sides instead?*/
+body {
+    margin: 0;
+    background-color: #d8d8d8; /*Find color values using EyeDropper*/
+    height: 100vh; /*Using vh and vw will keep them relative to the page*/
+    width: 100vw;
+}
+
+#top-bar {
+    margin: 0;
+    background-color: #444444;
+    height: 15vh; /*Tried hardcoding using px, quickly realized that it wouldn't scale properly*/
+    width: 100%;
+}
+
+#middle {
+    margin: 0 auto; /*Per Google, auto will horizontally center your element*/
+    background-color: #efefef;
+    width: 75%;
+    height: 75vh;
+}
+
+#bottom-bar {
+    margin: 0 auto;
+    background-color: #222222;
+    width: 75%;
+    height: 10vh;
+}
+
