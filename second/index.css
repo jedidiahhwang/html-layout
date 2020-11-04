@@ -7,14 +7,14 @@ body {
     border: 5px solid black;
     padding: 10px;
     width: 100%;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Retains the sizes I want. */
 }
 
 #purple-rectangle {
     background-color: #8A2BE2;
-    width: 40px;
+    width: 50px;
     height: 150px;
-    display: inline-block;
+    display: inline-block; /* Display the elements from left to right, each element occupying its own block. */
 }
 
 #green-rectangle {
@@ -22,14 +22,14 @@ body {
     width: 400px;
     height: 200px;
     display: inline-block;
-    margin: 0px 50px;
+    margin: 0px 50px; /* Remember that the first parameter is for top/bottom, second is for left/right. */
 }
 
 #blue-circle {
     background-color: #87CEEB;
     height: 200px;
     width: 200px;
-    border-radius: 100%;
+    border-radius: 100%; /* Making it 100% makes sure it's as round as can be. */
     display: inline-block;
 }
 
@@ -45,7 +45,7 @@ body {
     background-color: #FFFACD;
     width: 100%;
     height: 200px;
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px black; /* Googled this solid shadow method, but will attempt gradients later. */
 }
 
 .bottom-container {
